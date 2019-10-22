@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/4.0/examples/sign-in/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Admin Dashboard!</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./include/bootstrap.min.css" rel="stylesheet">
+    <link href="./include/bootstrap-social.css" rel="stylesheet">
+
+    <link href="./include/fontawesome-webfont.svg">
+
+    <!-- Custom styles for this template -->
+    <link href="./include/signin.css" rel="stylesheet">
+  </head>
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+
+
+  <body class="text-center">
+    <form class="form-signin" _lpchecked="1">
+    <!--  <img class="mb-4" src="./include/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" autocomplete="off">
+      <div class="checkbox mb-3">
+              <div class="g-recaptcha" data-sitekey="6Ldsh7wUAAAAABeOlCAzVsVj7qbj2I1EW335kTdH"></div>
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <a id="github-button" class="btn btn-block btn-social btn-github" style="text-align: center;" href="https://github.com/login/oauth/authorize?client_id=74702be449780f4bce1d&redirect_uri=http://localhost:8080/oauth/redirect">Login with Github</a>
+      <a id="facebook-button" class="btn btn-block btn-social btn-facebook" style="text-align: center;" href="https://github.com/login/oauth/authorize?client_id=74702be449780f4bce1d&redirect_uri=http://localhost:8080/oauth/redirect">Login with Facebook</a>
+      <a id="twitter-button" class="btn btn-block btn-social btn-twitter" style="text-align: center;" href="https://github.com/login/oauth/authorize?client_id=74702be449780f4bce1d&redirect_uri=http://localhost:8080/oauth/redirect">Login with Twitter</a>
+
+      <p class="mt-5 mb-3 text-muted">© 2019</p>
+    </form>
+
+
+</body></html>
